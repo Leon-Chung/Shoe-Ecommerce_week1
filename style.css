@@ -1,0 +1,263 @@
+@charset "UTF-8";
+.container, .greenBackground {
+  position: relative;
+  width: 1920px;
+  height: 400px;
+}
+.container .headerImg, .greenBackground .headerImg {
+  position: absolute;
+  max-width: 100%;
+}
+.container .containerBackground, .greenBackground .containerBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.container .brand, .greenBackground .brand {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .brand h1, .greenBackground .brand h1 {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+}
+.container .brand P, .greenBackground .brand P {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+}
+
+.greenBackground {
+  height: 100%;
+}
+.greenBackground .box {
+  width: 856px;
+  height: 180px;
+  background: #f5fee7;
+  margin: 64px auto 48px;
+}
+.greenBackground .box h5 {
+  color: #57a203;
+  text-align: center;
+  padding: 32px 32px 12px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+}
+.greenBackground .box .text {
+  padding: 0px 32px 32px;
+  text-align: center;
+}
+.greenBackground .box .text p {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 4px;
+  letter-spacing: 0.05em;
+}
+.greenBackground .footBox {
+  width: 1076px;
+  margin: 0 auto;
+}
+.greenBackground .footBox img {
+  max-width: 100%;
+  height: 717px;
+  display: block;
+}
+.greenBackground .footBox h4 {
+  margin: 24px 110px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+}
+.greenBackground .footBox .textBox {
+  margin: 0 110px;
+  border-bottom: 1px solid #DEE2E6;
+}
+.greenBackground .footBox .textBox h5 {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  color: #57a203;
+  margin: 0px auto 16px;
+}
+.greenBackground .footBox .textBox p {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  margin-bottom: 16px;
+}
+.greenBackground .footBox .textBox .textFoot {
+  margin-bottom: 48px;
+}
+
+.brandJourney, .brandPhilosophy, .brandStories {
+  width: 856px;
+  margin: 48px auto;
+}
+.brandJourney h4, .brandPhilosophy h4, .brandStories h4 {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  margin-bottom: 24px;
+}
+.brandJourney ul, .brandPhilosophy ul, .brandStories ul {
+  list-style: none;
+  padding-left: 1.2em;
+  border-bottom: 1px solid #DEE2E6;
+}
+.brandJourney ul li, .brandPhilosophy ul li, .brandStories ul li {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+}
+.brandJourney ul li::before, .brandPhilosophy ul li::before, .brandStories ul li::before {
+  content: "•";
+  font-size: 1em;
+  margin-left: -1.2em;
+  color: black;
+  display: inline-block;
+  width: 1.4em;
+}
+.brandJourney ul .lastLi, .brandPhilosophy ul .lastLi, .brandStories ul .lastLi {
+  margin-bottom: 48px;
+}
+.brandJourney ul span, .brandPhilosophy ul span, .brandStories ul span {
+  margin-left: 8px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  padding-left: 8px;
+  border-left: 1px solid #212529;
+}
+
+.brandPhilosophy, .brandStories {
+  margin-top: 0px;
+}
+.brandPhilosophy .brandPhilosophyText, .brandStories .brandPhilosophyText {
+  border-bottom: 1px solid #DEE2E6;
+  padding-left: 0px;
+}
+.brandPhilosophy .brandPhilosophyText li, .brandStories .brandPhilosophyText li {
+  padding: 0px 12px;
+  border-left: 3px solid #DEE2E6;
+}
+.brandPhilosophy .brandPhilosophyText li::before, .brandStories .brandPhilosophyText li::before {
+  content: "";
+  font-size: 0px;
+  margin-left: 0px;
+  width: 0px;
+  display: none;
+}
+
+.brandStories {
+  margin-bottom: 64px;
+}
+.brandStories .logoItem {
+  width: 100%;
+  border-bottom: 1px solid #DEE2E6;
+}
+.brandStories .logoItem .logo, .brandStories .logoItem .logoThree, .brandStories .logoItem .logoTwo {
+  width: 280px;
+  height: 44px;
+  padding: 8px 0px;
+  overflow: hidden;
+}
+.brandStories .logoItem .logo::after, .brandStories .logoItem .logoThree::after, .brandStories .logoItem .logoTwo::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.brandStories .logoItem .logo .icon, .brandStories .logoItem .logoThree .icon, .brandStories .logoItem .logoTwo .icon {
+  position: relative;
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+.brandStories .logoItem .logo .icon img, .brandStories .logoItem .logoThree .icon img, .brandStories .logoItem .logoTwo .icon img {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 2.5px;
+  left: 2.5px;
+  padding: 4px 0px;
+}
+.brandStories .logoItem .logo span, .brandStories .logoItem .logoThree span, .brandStories .logoItem .logoTwo span {
+  width: 252px;
+  padding: 8px 0px;
+  border-bottom: 1px solid #57a203;
+  word-spacing: -0.01em;
+}
+.brandStories .logoItem .logo span a, .brandStories .logoItem .logoThree span a, .brandStories .logoItem .logoTwo span a {
+  display: inline-block;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  padding: 0px 0px 4px 0px;
+  margin-left: 8px;
+  text-decoration: none;
+  color: #57a203;
+}
+.brandStories .logoItem .logoTwo {
+  width: 211px;
+}
+.brandStories .logoItem .logoTwo span {
+  width: 183px;
+}
+.brandStories .logoItem .logoThree {
+  width: 240px;
+  margin-bottom: 48px;
+}
+.brandStories .logoItem .logoThree span {
+  width: 212px;
+}
+
+.footBg {
+  width: 1920px;
+  height: 174px;
+  background: #f8f9fa;
+  display: table;
+}
+.footBg .footBottom {
+  width: 1296px;
+  height: 46px;
+  margin: 64px auto;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.footBg .footBottom p span {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #6c757d;
+}/*# sourceMappingURL=style.css.map */
